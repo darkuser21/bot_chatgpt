@@ -1,4 +1,4 @@
-from openai import OpenAI
+from OpenAI import OpenAI
 import streamlit as me
 
 user = OpenAI(api_key= "sk-Y4t-t7IbTFyD9DFZ7J0RsPJnx9hNd1rxRiGg054hmqT3BlbkFJM5QzFW7cfD6znNWEetlnTtqVwyEj1X4EqF5kDsnXIA")
