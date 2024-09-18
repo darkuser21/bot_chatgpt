@@ -8,7 +8,7 @@ userrole = "user"
 pre_promt = "Teach me the following concept : "
 response = ""
 
-me.title.("SASTA TEACHER")
+me.title("SASTA TEACHER")
 me.divider()
 promt=me.text_input("TUZE KYA SIKNA HAI JALDI BATA NAHI TO CHALA JAUNGA!! ")
 gptbutton = me.button("ARAM SE TOUCH KAR")
