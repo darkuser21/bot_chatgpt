@@ -18,7 +18,8 @@ me.divider()
 
 if gptbutton:
     with me.spinner(" SABAR KAR NAHI TO NIKAL"):
-        response = user.chat.completions.create(
+        response = user.chat.completions.create
+        (
             model = gptmodel,
             message = [
                   {"role" : userrole, "content": pre_promt + promt }
