@@ -3,7 +3,7 @@ import streamlit as me
 
 api = me.secrets["API_KEY"]
 user = OpenAI(api_key=api)
-gptmodel = "gpt-3.5-turbo"
+gptmodel = "gpt-3.5-turbo-0125"
 userrole = "user"
 
 pre_promt = "Teach me the following concept : "
