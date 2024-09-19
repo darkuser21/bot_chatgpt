@@ -21,7 +21,7 @@ if gptbutton:
         response = user.chat.completions.create
         (
             model == gptmodel,
-            messages= [
+            messages == [
                   {"role" : userrole, "content": pre_promt + promt }
             ]
         ) 
