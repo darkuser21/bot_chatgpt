@@ -20,8 +20,8 @@ if gptbutton:
     with me.spinner(" SABAR KAR NAHI TO NIKAL"):
         response = user.chat.completions.create
         (
-            model == gptmodel,
-            messages == [
+            model = gptmodel,
+            messages = [
                   {"role" : userrole, "content": pre_promt + promt }
             ]
         ) 
