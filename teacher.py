@@ -26,4 +26,4 @@ if gptbutton:
             ]
         ) 
     me.snow()
-    st.write(response.choice[0]. message.content)             
+    me.write(response.choice[0]. messages.content)             
