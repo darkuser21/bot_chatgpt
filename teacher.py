@@ -21,7 +21,7 @@ if gptbutton:
         response = user.chat.completions.create(
             model = gptmodel,
             message = [
-                  {"role" : userrole, "content": pre_prompt + prompt }
+                  {"role" : userrole, "content": pre_promt + prompt }
             ]
         ) 
     me.snow()
