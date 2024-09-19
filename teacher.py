@@ -1,7 +1,7 @@
 from openai import OpenAI
 import streamlit as me
 
-api = st.secrets["API_KEY"]
+api = me.secrets["API_KEY"]
 user = OpenAI(api_key=api)
 gptmodel = "gpt-3.5-turbo"
 userrole = "user"
